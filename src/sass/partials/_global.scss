@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+.row,
+.col-md-6 {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.text-column {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+
+}

@@ -1,0 +1,27 @@
+.text-column {
+    &__text {
+        text-align: center;
+
+        &__h1 {
+            font-family: 'Playfair Display', serif;
+            @include rfs(60);
+        }
+
+        &__desc {
+            font-family: 'Poppins', serif;
+            color: gray;
+            margin-top: 5rem;
+        }
+
+        &__form {
+            width: 300px;
+            margin: 0 auto;
+            margin-top: 2rem;
+
+            input {
+                border-radius: 0;
+                height: 50px;
+            }
+        }
+    }
+}
